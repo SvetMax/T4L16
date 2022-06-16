@@ -1,18 +1,19 @@
 * {
   box-sizing: border-box;
 }
-body {
+main {
   background-color: bisque;
-}
-.login-form {
-  background-color: aqua;
-  display: block;
-  width: 300px;
-  font-family: "Courier New", Courier, monospace;
+  display: flex;
+  height: 100vh;
+  font-family: monospace;
   font-size: 16px;
+}
+form {
+  background-color: aqua;
+  width: 300px;
   padding: 16px;
   box-shadow: 0px 4px 8px 0 rgba(0, 0, 0, 0.2);
-  margin: 0 auto;
+  margin: auto;
 }
 .form-title {
   text-align: center;
