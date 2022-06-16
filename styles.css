@@ -21,6 +21,7 @@ form {
 }
 .form-label {
   margin-bottom: 4px;
+  display: inline-block;
 }
 input {
   margin: 0;
